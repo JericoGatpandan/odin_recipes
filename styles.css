@@ -1,14 +1,17 @@
-* {
-    margin:0;
-   
-    
-}
 ul {
-    display: flex;
+    display: inline-flex;
+    list-style: none;
     justify-content: center;
 }
 li {
-    padding: 5px;
-    list-style: none;
-    text-decoration: none;
+    padding: 10px 150px;
+    border: 2px solid black;
+    margin: 5px;
+}
+img {
+    padding: 10px 100px;
+}
+h1 {
+    text-align: center;
+    border: 2px solid black;
 }
